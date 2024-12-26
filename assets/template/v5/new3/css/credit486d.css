@@ -1,0 +1,460 @@
+.s-credit-intro {
+  padding-top: 0;
+}
+
+.s-credit-intro .m-breadcrumbs {
+  position: absolute;
+  top: calc(var(--scale) * 24);
+  left: calc(var(--scale) * 24);
+  padding: 0;
+  margin: 0;
+}
+
+.s-credit-intro .l-section__inner {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  gap: calc(var(--scale) * 8);
+  flex-direction: column;
+  height: calc(var(--scale) * 393);
+  padding: var(--padding_def);
+  color: var(--a-color_white);
+  text-align: center;
+  background-color: var(--a-color_dark);
+  border-radius: calc(var(--scale) * 16);
+}
+
+.s-credit-intro__title {
+  margin-top: auto;
+}
+
+.s-credit-intro picture {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--scale) * 16);
+  overflow: hidden;
+}
+
+.s-credit-intro picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--scale) * 16);
+}
+
+.s-about-credit {
+  margin-top: calc(var(--scale) * -20);
+}
+
+.s-about-credit .l-section__inner {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--scale) * 8);
+}
+
+.s-about-credit .m-card-text__bottom {
+  padding-top: calc(var(--scale) * 32);
+}
+
+.s-about-credit .m-card-text__block {
+  display: grid;
+  gap: calc(var(--scale) * 16);
+}
+
+.s-about-credit .m-card-text__block ul {
+  display: grid;
+  gap: calc(var(--scale) * 8);
+}
+
+.s-about-credit .m-card-text__block ul li::before {
+  top: calc(var(--scale) * 4);
+}
+
+.s-about-credit .m-card-text__block .a-btn {
+  width: 100%;
+}
+
+.s-about-credit .swiper-slide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--scale) * 16);
+  width: calc(var(--scale) * 280);
+  height: auto;
+  min-height: calc(var(--scale) * 156);
+  padding: var(--padding_def);
+  background-color: var(--a-color_grey_40);
+  border-radius: calc(var(--scale) * 16);
+}
+
+.s-about-credit .swiper-slide .ico {
+  position: absolute;
+  right: calc(var(--scale) * 12);
+  bottom: calc(var(--scale) * 12);
+  width: calc(var(--scale) * 32);
+  height: calc(var(--scale) * 32);
+  color: var(--a-color_white);
+  background-color: var(--a-color_red);
+  border-radius: 50%;
+}
+
+.s-about-credit__slider-title {
+  margin-bottom: auto;
+}
+
+.s-about-credit__slider-text {
+  padding-right: calc(var(--scale) * 44);
+}
+
+.s-how-get-credit .swiper-slide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: calc(var(--scale) * 280);
+  height: auto;
+  min-height: calc(var(--scale) * 161);
+  padding: var(--padding_def);
+  background-color: var(--a-color_grey_40);
+  border-radius: calc(var(--scale) * 16);
+}
+
+.s-how-get-credit__slider-num {
+  color: var(--a-color_grey_80);
+}
+
+.s-how-get-credit__slider-text {
+  margin-top: auto;
+}
+
+.s-how-get-credit img {
+  position: absolute;
+  top: calc(var(--scale) * 12);
+  right: calc(var(--scale) * 12);
+  height: calc(var(--scale) * 36);
+  width: auto;
+}
+
+.s-pay-credit {
+  margin-top: calc(var(--scale) * 20);
+  padding-top: calc(var(--scale) * 40);
+  background-color: var(--a-color_grey_20);
+  border-radius: calc(var(--scale) * 16);
+}
+
+.s-pay-credit__title {
+  margin: calc(var(--scale) * 24) 0;
+}
+
+.s-pay-credit .s-pay-credit__info-btn {
+  display: flex;
+  width: 100%;
+  margin: calc(var(--scale) * 24) auto calc(var(--scale) * 40);
+}
+
+.s-pay-credit .swiper-slide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: calc(var(--scale) * 280);
+  height: auto;
+  min-height: calc(var(--scale) * 213);
+  padding: var(--padding_def);
+  background-color: var(--a-color_grey_40);
+  border-radius: calc(var(--scale) * 16);
+}
+
+.s-pay-credit .swiper-slide img {
+  width: calc(var(--scale) * 64);
+  height: auto;
+  margin-bottom: auto;
+}
+
+.s-pay-credit .swiper__title {
+  margin-bottom: calc(var(--scale) * 12);
+}
+
+.s-pay-credit .swiper__text {
+  max-width: calc(var(--scale) * 370);
+}
+
+.s-pay-credit__docs {
+  display: grid;
+  gap: calc(var(--scale) * 8);
+}
+
+.s-pay-credit__doc {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: var(--padding_def);
+  background-color: var(--a-color_white);
+  border-radius: calc(var(--scale) * 16);
+}
+
+.s-pay-credit__doc .ico {
+  width: calc(var(--scale) * 32);
+  height: calc(var(--scale) * 32);
+  margin-bottom: calc(var(--scale) * 12);
+  color: var(--a-color_white);
+  background-color: var(--a-color_red);
+  border-radius: 50%;
+}
+
+.s-pay-credit__doc-title {
+  margin-top: auto;
+  margin-bottom: calc(var(--scale) * 8);
+}
+
+.s-pay-credit__dop {
+  display: grid;
+}
+
+.s-pay-credit__dop picture {
+  display: none;
+}
+
+.s-pay-credit__dop-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--scale) * 32);
+  height: calc(var(--scale) * 32);
+  margin-bottom: auto;
+  color: var(--a-color_white);
+  background-color: var(--a-color_dark);
+  border-radius: 50%;
+}
+
+.s-pay-credit__dop-docs {
+  display: grid;
+  gap: calc(var(--scale) * 8);
+}
+
+.s-pay-credit__dop-doc {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding_def);
+  background-color: var(--a-color_grey_40);
+  border-radius: calc(var(--scale) * 16);
+}
+
+.s-pay-credit__dop-doc-title {
+  margin-top: calc(var(--scale) * 12);
+}
+
+.s-pay-credit__dop-doc-text {
+  margin-top: calc(var(--scale) * 8);
+}
+
+@media only screen and (min-width: 768px) {
+  .s-credit-intro {
+    padding-top: calc(var(--scale) * 8);
+  }
+
+  .s-credit-intro .l-section__inner {
+    height: calc(var(--scale) * 176);
+    text-align: left;
+  }
+
+  .s-credit-intro__title {
+    margin-top: 0;
+    margin-bottom: auto;
+  }
+
+  .s-about-credit .m-card-text__block .a-btn {
+    max-width: calc(var(--scale) * 352);
+  }
+
+  .s-pay-credit .s-pay-credit__info-btn {
+    max-width: calc(var(--scale) * 328);
+    margin-bottom: 0;
+  }
+
+  .s-pay-credit__docs {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .s-pay-credit__doc .ico {
+    margin-bottom: calc(var(--scale) * 16);
+  }
+
+  .s-pay-credit__dop {
+    gap: calc(var(--scale) * 8);
+    grid-template-columns: 1fr calc(var(--scale) * 240);
+  }
+
+  .s-pay-credit__dop picture {
+    display: block;
+  }
+
+  .s-pay-credit__dop-docs {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .s-pay-credit__dop-doc:last-child {
+    grid-column: 1/3;
+  }
+
+  .s-pay-credit__dop-doc-text {
+    margin-top: calc(var(--scale) * 12);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .s-credit-intro {
+    padding-top: calc(var(--scale) * 24);
+  }
+
+  .s-credit-intro .l-section__inner {
+    height: calc(var(--scale) * 320);
+    padding-top: calc(var(--scale) * 61);
+  }
+
+  .s-about-credit {
+    margin-top: calc(var(--scale) * -40);
+  }
+
+  .s-about-credit .l-section__inner {
+    display: grid;
+    gap: calc(var(--scale) * 20);
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .s-about-credit .m-card-text__bottom {
+    margin-top: 0;
+    padding-top: calc(var(--scale) * 18);
+  }
+
+  .s-about-credit .m-card-text__block .a-btn {
+    max-width: calc(var(--scale) * 252);
+    margin-top: calc(var(--scale) * 48);
+  }
+
+  .s-about-credit .swiper-wrapper {
+    display: grid;
+    gap: calc(var(--scale) * 20);
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .s-about-credit .swiper-slide {
+    width: 100%;
+  }
+
+  .s-about-credit .swiper-slide .ico {
+    width: calc(var(--scale) * 36);
+    height: calc(var(--scale) * 36);
+    right: calc(var(--scale) * 24);
+    bottom: calc(var(--scale) * 24);
+  }
+
+  .s-how-get-credit .swiper-slide {
+    width: calc(var(--scale) * 600);
+    min-height: calc(var(--scale) * 220);
+  }
+
+  .s-how-get-credit .swiper-slide:nth-child(odd) {
+    width: calc(var(--scale) * 290);
+  }
+
+  .s-how-get-credit img {
+    top: calc(var(--scale) * 24);
+    right: calc(var(--scale) * 24);
+    height: calc(var(--scale) * 56);
+  }
+
+  .s-pay-credit {
+    margin-top: calc(var(--scale) * 49);
+    padding-top: calc(var(--scale) * 80);
+    border-radius: calc(var(--scale) * 28);
+  }
+
+  .s-pay-credit__title {
+    margin: calc(var(--scale) * 32) 0;
+  }
+
+  .s-pay-credit .s-pay-credit__info-btn {
+    max-width: calc(var(--scale) * 398);
+    margin-top: calc(var(--scale) * 44);
+    margin-bottom: calc(var(--scale) * 48);
+  }
+
+  .s-pay-credit .swiper-slide {
+    width: calc(var(--scale) * 600);
+    min-height: calc(var(--scale) * 258);
+  }
+
+  .s-pay-credit .swiper-slide img {
+    position: absolute;
+    right: calc(var(--scale) * 24);
+    bottom: calc(var(--scale) * 24);
+    width: calc(var(--scale) * 128);
+  }
+
+  .s-pay-credit .swiper__title {
+    margin-bottom: auto;
+  }
+
+  .s-pay-credit__docs {
+    gap: calc(var(--scale) * 20);
+  }
+
+  .s-pay-credit__doc .ico {
+    position: absolute;
+    right: calc(var(--scale) * 24);
+    bottom: calc(var(--scale) * 24);
+    width: calc(var(--scale) * 40);
+    height: calc(var(--scale) * 40);
+    margin: 0;
+  }
+
+  .s-pay-credit__doc-title {
+    margin-top: 0;
+    margin-bottom: auto;
+  }
+
+  .s-pay-credit__doc-text {
+    margin-top: calc(var(--scale) * 14);
+    max-width: calc(var(--scale) * 370);
+  }
+
+  .s-pay-credit__dop {
+    gap: calc(var(--scale) * 20);
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .s-pay-credit__dop-num {
+    width: calc(var(--scale) * 40);
+    height: calc(var(--scale) * 40);
+  }
+
+  .s-pay-credit__dop-docs {
+    gap: calc(var(--scale) * 20);
+  }
+
+  .s-pay-credit__dop-doc-title {
+    margin-top: calc(var(--scale) * 20);
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .s-form-min {
+    margin-bottom: calc(var(--scale) * -28);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .s-credit-intro {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .s-credit-intro .l-section__inner br {
+    display: none;
+  }
+}
+/*# sourceMappingURL=maps/credit.css.map */
